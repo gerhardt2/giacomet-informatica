@@ -73,7 +73,7 @@ export default function Hero() {
             className="flex flex-col sm:flex-row gap-4"
           >
             <a
-              href="https://wa.me/5542999999999?text=Olá! Gostaria de saber mais sobre os serviços da Giacomet Informática."
+              href="https://wa.me/554699735626?text=Olá! Gostaria de saber mais sobre os serviços da Giacomet Informática."
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center justify-center gap-3 bg-gradient-to-r from-primary-500 to-primary-600 hover:from-primary-400 hover:to-primary-500 text-white px-8 py-4 rounded-2xl text-base font-semibold shadow-2xl shadow-primary-600/30 hover:shadow-primary-500/50 transition-all duration-300 hover:-translate-y-1"

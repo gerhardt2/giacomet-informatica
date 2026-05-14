@@ -122,7 +122,7 @@ export default function Header() {
 
             {/* CTA Button */}
             <a
-              href="https://wa.me/5542999999999?text=Olá! Gostaria de saber mais sobre os serviços da Giacomet Informática."
+              href="https://wa.me/554699735626?text=Olá! Gostaria de saber mais sobre os serviços da Giacomet Informática."
               target="_blank"
               rel="noopener noreferrer"
               className="hidden md:flex items-center gap-2 bg-gradient-to-r from-primary-600 to-primary-700 hover:from-primary-500 hover:to-primary-600 text-white px-5 py-2.5 rounded-xl text-sm font-semibold shadow-lg shadow-primary-600/30 hover:shadow-primary-600/50 transition-all duration-300 hover:-translate-y-0.5"
@@ -172,7 +172,7 @@ export default function Header() {
                 </motion.a>
               ))}
               <a
-                href="https://wa.me/5542999999999?text=Olá! Gostaria de saber mais sobre os serviços da Giacomet Informática."
+                href="https://wa.me/554699735626?text=Olá! Gostaria de saber mais sobre os serviços da Giacomet Informática."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-2 flex items-center justify-center gap-2 bg-gradient-to-r from-primary-600 to-primary-700 text-white px-5 py-3 rounded-xl font-semibold"

@@ -13,15 +13,16 @@ export default function Contact() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     const msg = `Olá! Meu nome é ${formData.name}. ${formData.message} Contato: ${formData.phone || formData.email}`
-    window.open(`https://wa.me/5542999999999?text=${encodeURIComponent(msg)}`, '_blank')
+    window.open(`https://wa.me/554699735626?text=${encodeURIComponent(msg)}`, '_blank')
     setSubmitted(true)
     setTimeout(() => setSubmitted(false), 3000)
   }
 
   const contactInfo = [
     { icon: MapPin, label: 'Endereço', value: 'Palmas, Paraná - PR', link: 'https://maps.google.com/?q=Palmas+Parana' },
-    { icon: Phone, label: 'Telefone', value: '(42) 99999-9999', link: 'tel:+5542999999999' },
-    { icon: Mail, label: 'E-mail', value: 'contato@giacometinformatica.com.br', link: 'mailto:contato@giacometinformatica.com.br' },
+    { icon: Phone, label: 'Telefone', value: '(46) 3263-1493', link: 'tel:+554632631493' },
+    { icon: MessageCircle, label: 'WhatsApp', value: '(46) 9973-5626', link: 'https://wa.me/554699735626' },
+    { icon: Mail, label: 'E-mail', value: 'tecnica@proserv.com.br', link: 'mailto:tecnica@proserv.com.br' },
     { icon: Clock, label: 'Horário', value: 'Seg-Sex: 8h-18h | Sáb: 8h-12h', link: '#' },
   ]
 
@@ -54,7 +55,7 @@ export default function Contact() {
               {[
                 { icon: Facebook, href: 'https://www.facebook.com/profile.php?id=100057105954600', label: 'Facebook', color: 'hover:bg-blue-600' },
                 { icon: Instagram, href: '#', label: 'Instagram', color: 'hover:bg-gradient-to-br hover:from-purple-600 hover:to-pink-500' },
-                { icon: MessageCircle, href: 'https://wa.me/5542999999999', label: 'WhatsApp', color: 'hover:bg-green-500' },
+                { icon: MessageCircle, href: 'https://wa.me/554699735626', label: 'WhatsApp', color: 'hover:bg-green-500' },
               ].map((social) => {
                 const Icon = social.icon
                 return (
@@ -86,7 +87,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <label htmlFor="phone" className="block text-sm font-medium text-dark-700 dark:text-dark-300 mb-2">Telefone</label>
-                    <input type="tel" id="phone" value={formData.phone} onChange={(e) => setFormData({ ...formData, phone: e.target.value })} className="w-full px-4 py-3 bg-white dark:bg-dark-700 border border-dark-200 dark:border-dark-600 rounded-xl text-dark-900 dark:text-white placeholder-dark-400 focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all outline-none" placeholder="(42) 99999-9999" />
+                    <input type="tel" id="phone" value={formData.phone} onChange={(e) => setFormData({ ...formData, phone: e.target.value })} className="w-full px-4 py-3 bg-white dark:bg-dark-700 border border-dark-200 dark:border-dark-600 rounded-xl text-dark-900 dark:text-white placeholder-dark-400 focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all outline-none" placeholder="(46) 9973-5626" />
                   </div>
                 </div>
                 <div>

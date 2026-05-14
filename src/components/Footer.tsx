@@ -46,7 +46,7 @@ export default function Footer() {
               {[
                 { icon: Facebook, href: 'https://www.facebook.com/profile.php?id=100057105954600' },
                 { icon: Instagram, href: '#' },
-                { icon: MessageCircle, href: 'https://wa.me/5542999999999' },
+                { icon: MessageCircle, href: 'https://wa.me/554699735626' },
               ].map((s, i) => {
                 const Icon = s.icon
                 return <a key={i} href={s.href} target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-dark-800 hover:bg-primary-600 rounded-xl flex items-center justify-center text-dark-400 hover:text-white transition-all"><Icon className="w-4 h-4" /></a>
@@ -79,8 +79,8 @@ export default function Footer() {
             <h4 className="text-white font-bold font-display mb-5">Contato</h4>
             <div className="space-y-4">
               <div className="flex items-start gap-3"><MapPin className="w-4 h-4 text-primary-400 mt-0.5 shrink-0" /><span className="text-dark-400 text-sm">Palmas, Paraná - PR</span></div>
-              <div className="flex items-start gap-3"><Phone className="w-4 h-4 text-primary-400 mt-0.5 shrink-0" /><span className="text-dark-400 text-sm">(42) 99999-9999</span></div>
-              <div className="flex items-start gap-3"><Mail className="w-4 h-4 text-primary-400 mt-0.5 shrink-0" /><span className="text-dark-400 text-sm">contato@giacometinformatica.com.br</span></div>
+              <div className="flex items-start gap-3"><Phone className="w-4 h-4 text-primary-400 mt-0.5 shrink-0" /><span className="text-dark-400 text-sm">(46) 3263-1493<br/>(46) 9973-5626 (WhatsApp)</span></div>
+              <div className="flex items-start gap-3"><Mail className="w-4 h-4 text-primary-400 mt-0.5 shrink-0" /><span className="text-dark-400 text-sm">tecnica@proserv.com.br</span></div>
             </div>
           </div>
         </div>

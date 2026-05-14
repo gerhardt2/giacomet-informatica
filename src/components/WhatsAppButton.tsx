@@ -5,7 +5,7 @@ import { MessageCircle } from 'lucide-react'
 export default function WhatsAppButton() {
   return (
     <a
-      href="https://wa.me/5542999999999?text=Olá! Gostaria de saber mais sobre os serviços da Giacomet Informática."
+      href="https://wa.me/554699735626?text=Olá! Gostaria de saber mais sobre os serviços da Giacomet Informática."
       target="_blank"
       rel="noopener noreferrer"
       className="whatsapp-float group"
