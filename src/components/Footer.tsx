@@ -1,6 +1,7 @@
 'use client'
 
 import { Monitor, Facebook, Instagram, MessageCircle, ArrowUp, MapPin, Phone, Mail } from 'lucide-react'
+import Image from 'next/image'
 
 const quickLinks = [
   { label: 'Início', href: '#inicio' },
@@ -31,8 +32,8 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3 mb-5">
-              <div className="w-10 h-10 bg-gradient-to-br from-primary-500 to-primary-700 rounded-xl flex items-center justify-center shadow-lg shadow-primary-500/30">
-                <Monitor className="w-5 h-5 text-white" />
+              <div className="w-12 h-12 relative flex items-center justify-center bg-white rounded-xl shadow-lg shadow-primary-500/20 overflow-hidden">
+                <Image src="/images/logo.png" alt="Giacomet Informática Logo" fill className="object-cover" />
               </div>
               <div>
                 <span className="text-lg font-bold font-display text-white">Giacomet</span>

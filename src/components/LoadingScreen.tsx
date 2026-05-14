@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Monitor } from 'lucide-react'
+import Image from 'next/image'
 
 export default function LoadingScreen() {
   const [isLoading, setIsLoading] = useState(true)
@@ -28,8 +29,8 @@ export default function LoadingScreen() {
             transition={{ duration: 0.5, type: 'spring' }}
             className="relative mb-8"
           >
-            <div className="w-20 h-20 bg-gradient-to-br from-primary-500 to-primary-600 rounded-3xl flex items-center justify-center shadow-2xl shadow-primary-500/30 animate-pulse-glow">
-              <Monitor className="w-10 h-10 text-white" />
+            <div className="w-24 h-24 relative bg-white rounded-3xl flex items-center justify-center shadow-2xl shadow-primary-500/30 animate-pulse-glow overflow-hidden">
+              <Image src="/images/logo.png" alt="Giacomet Informática Logo" fill className="object-cover" />
             </div>
           </motion.div>
 

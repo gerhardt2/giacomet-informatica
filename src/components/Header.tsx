@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X, Monitor, Moon, Sun, Phone } from 'lucide-react'
+import Image from 'next/image'
 
 const navItems = [
   { label: 'Início', href: '#inicio' },
@@ -60,8 +61,8 @@ export default function Header() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <div className="w-10 h-10 bg-gradient-to-br from-primary-500 to-primary-700 rounded-xl flex items-center justify-center shadow-lg shadow-primary-500/30 group-hover:shadow-primary-500/50 transition-shadow">
-              <Monitor className="w-5 h-5 text-white" />
+            <div className="w-12 h-12 relative flex items-center justify-center bg-white rounded-xl shadow-lg shadow-primary-500/20 overflow-hidden">
+              <Image src="/images/logo.png" alt="Giacomet Informática Logo" fill className="object-cover" />
             </div>
             <div>
               <span className={`text-lg font-bold font-display tracking-tight ${
